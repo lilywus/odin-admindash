@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <script src="name.js" defer></script>
+</head>
+<body>
+    <div id="sidebar">
+        <div id="sidebar-title">
+            <img src="img/icons/view-dashboard.svg">
+            <h2>Dashboard</h2>
+        </div>
+
+        <ul class="menu">
+            <li><img src="img/icons/home.svg">Home</li>
+            <li><img src="img/icons/profile.svg">Profile</li>
+            <li><img src="img/icons/messages.svg">Messages</li>
+            <li><img src="img/icons/history.svg">History</li>
+            <li><img src="img/icons/tasks.svg">Tasks</li>
+            <li><img src="img/icons/communities.svg">Communities</li>
+        </ul>
+
+        <ul class="menu">
+            <li><img src="img/icons/settings.svg">Settings</li>
+            <li><img src="img/icons/support.svg">Support</li>
+            <li><img src="img/icons/privacy.svg">Privacy</li>
+        </ul>
+    </div>
+
+    <div id="main">
+        <div id="header">
+            <div id="headertop">
+                <div id="search">
+                    <img src="img/icons/magnify.svg" class="svgicon">
+                    <input type="search">
+                </div>
+                <div id="notifications">
+                    <img src="img/icons/bell.svg" class="svgicon">
+                    <img src="img/magpie.jpg" class="smallicon">
+                    <h3 id="topname">Generic Name</h3>
+                </div>
+            </div>
+
+            <div id="headerbottom">
+                <div id="greeting">
+                    <img src="img/magpie.jpg" class="bigicon">
+                    <div id="greetingtext">
+                        Hi there, <br><span id="greetingname">Generic Name!</span>
+                    </div>
+                </div>
+                <div id="buttons">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="content">
+            <div id="projects">
+                <h2 id="ptitle">Recent bird sightings</h2>
+                <div class="project">
+                    <h3>May 4, 2024</h3>
+                    <p>Bird</p>
+                    <div class="projecttools">
+                        <a href="#"><img src="img/icons/star.svg"></a>
+                        <a href="#"><img src="img/icons/eye.svg"></a>
+                        <a href="#"><img src="img/icons/fork.svg"></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>March 25, 2024</h3>
+                    <p>Bird</p>
+                    <div class="projecttools">
+                        <a href="#"><img src="img/icons/star.svg"></a>
+                        <a href="#"><img src="img/icons/eye.svg"></a>
+                        <a href="#"><img src="img/icons/fork.svg"></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>March 2, 2024</h3>
+                    <p>Bird</p>
+                    <div class="projecttools">
+                        <a href="#"><img src="img/icons/star.svg"></a>
+                        <a href="#"><img src="img/icons/eye.svg"></a>
+                        <a href="#"><img src="img/icons/fork.svg"></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>February 20, 2024</h3>
+                    <p>Bird</p>
+                    <div class="projecttools">
+                        <a href="#"><img src="img/icons/star.svg"></a>
+                        <a href="#"><img src="img/icons/eye.svg"></a>
+                        <a href="#"><img src="img/icons/fork.svg"></a>
+                    </div></div>
+                <div class="project">
+                    <h3>February 4, 2024</h3>
+                    <p>Bird</p>
+                    <div class="projecttools">
+                        <a href="#"><img src="img/icons/star.svg"></a>
+                        <a href="#"><img src="img/icons/eye.svg"></a>
+                        <a href="#"><img src="img/icons/fork.svg"></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>January 1, 2024</h3>
+                    <p>Bird. Happy new near!</p>
+                    <div class="projecttools">
+                        <a href="#"><img src="img/icons/star.svg"></a>
+                        <a href="#"><img src="img/icons/eye.svg"></a>
+                        <a href="#"><img src="img/icons/fork.svg"></a>
+                    </div></div>
+            </div>
+            <div id="announcements-trending">
+                <div id="announcements">
+                    <h2>Credit</h2>
+                    <div class="card">
+                        <span>Profile picture</span>
+                        <p>Profile photo by <a href="https://unsplash.com/@sarahleejs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jongsun Lee</a> on 
+                            <a href="https://unsplash.com/photos/black-and-white-bird-DjBW1BPCpKw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+
+                        <span>Icons</span>
+                        <p>Icons from <a href="https://pictogrammers.com/library/mdi/">Pictogrammers</a>.</p>
+                    </div>
+                </div>
+
+                <div id="trending">
+                    <h2>Friends</h2>
+                    <div class="card profiles">
+                        <img src="img/longtail.jpg" class="smallicon">
+                        <p>@longtail<br>by <a href="https://unsplash.com/photos/a-white-and-black-bird-sitting-on-top-of-a-tree-branch-HIhue8mQVcU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">A. Strizhkov</a></p>
+                        <img src="img/piper.jpg" class="smallicon">
+                        <p>@sandpiper<br>by <a href="https://unsplash.com/photos/brown-and-white-bird-on-white-snow-NwFz1EA9GJo">M. Bango</a></p>
+                        <img src="img/sparrow.jpg" class="smallicon">
+                        <p>@sparrow<br>by <a href="https://unsplash.com/photos/brown-and-white-bird-on-tree-branch-Eb_2ItJvcI8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">a. solankar</a></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
